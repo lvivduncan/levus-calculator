@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<title> levus-calculator </title>
+</head>
+<body>
+
+<div id="price">
+	1818
+</div>
+
+<h5>Розмір:</h5>
+
+<select id="size">
+	<option value="0">-------</option>
+	<option value="100">100x100</option>
+	<option value="200">200x200</option>
+	<option value="300">300x300</option>
+	<option value="400">400x400</option>
+	<option value="500">500x500</option>
+	<option value="600">600x600</option>
+</select>
+
+<div id="plus-minus">
+	<input type="button" value="-" id="minus">
+	<input type="text" value="1" id="plus-minus-result">
+	<input type="button" value="+" id="plus">
+</div>
+
+<div id="add-options">
+	<h5>Додаткові опції:</h5>
+
+	<label>
+		<input type="checkbox" value="100"> опція 1 <span>+ 100 ГРН</span>
+	</label>
+
+	<label>
+		<input type="checkbox" value="110"> опція 2 <span>+ 110 ГРН</span>
+	</label>
+	
+	<label>
+		<input type="checkbox" value="120"> опція 3 <span>+ 120 ГРН</span>
+	</label>
+
+	<label>
+		<input type="checkbox" value="130"> опція 4 <span>+ 130 ГРН</span>
+	</label>
+
+</div>
+
+<div id="colors">
+	<label>
+		<input type="radio" name="color" value="0">Не обрано - 0
+	</label>
+
+	<label>
+		<input type="radio" name="color" value="10"> Синій +10грн
+	</label>
+
+	<label>
+		<input type="radio" name="color" value="20"> Червоний +20грн
+	</label>
+
+	<label>
+		<input type="radio" name="color" value="30"> Білий +30грн
+	</label>
+</div>
+
+	<script src="calc.js"></script>
+</body>
+</html> 
